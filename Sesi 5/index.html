@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment 1</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="form.js"></script>
+  </head>
+  <body onload="TampilkanData()">
+    <!-- Navbar Section -->
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#" class="active">HOME</a></li>
+          <li><a href="#">PRODUCT</a></li>
+          <li><a href="#">GALLERY</a></li>
+          <li><a href="#">BLOG</a></li>
+          <li><a href="#">MY INVENTORY</a></li>
+        </ul>
+      </nav>
+    </section>
+
+    <!-- Profile Section -->
+    <section class="profile">
+      <img
+        src="https://i.pinimg.com/564x/e2/cb/bf/e2cbbf60eec84b6657c3c71416173deb.jpg"
+        alt="avatar-profile"
+      />
+      <div class="intro">
+        <h2 id="new_fullname">Muhammad Fadhil Hasbi</h2>
+        <p id="new_role">Front End Developer</p>
+        <button class="contact">Kontak</button>
+        <button class="resume">Resume</button>
+      </div>
+      <div class="vl"><!--vertical line--></div>
+      <div class="list-form">
+        <ul>
+          <li>Availability</li>
+          <li>Usia</li>
+          <li>Lokasi</li>
+          <li>Pengalaman</li>
+          <li>Email</li>
+        </ul>
+      </div>
+      <div class="output">
+        <ul>
+          <li id="new_avail">Full Time</li>
+          <li id="new_age">20</li>
+          <li id="new_loc">Yogyakarta, Indonesia</li>
+          <li id="new_exp">1 Tahun</li>
+          <li id="new_email">muhammad1900016050@webmail.uad.ac.id</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Form Section -->
+    <section class="form">
+      <div class="form-container">
+        <form action="" class="list-form">
+          <label for="fullname">Nama</label><br />
+          <input type="text" id="fullname" /><br />
+          <label for="role">Role</label><br />
+          <input type="text" id="role" /><br />
+          <label for="avail">Availability</label><br />
+          <input type="text" id="avail" /><br />
+          <label for="age">Usia</label><br />
+          <input type="number" id="age" /><br />
+          <label for="loc">Lokasi</label><br />
+          <input type="text" id="loc" /><br />
+          <label for="exp">Pengalaman</label><br />
+          <input type="text" id="exp" /><br />
+          <label for="email">Email</label><br />
+          <input type="email" id="email" /><br /><br />
+
+          <button onclick="SimpanData()" id="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
