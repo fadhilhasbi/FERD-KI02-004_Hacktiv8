@@ -1,10 +1,11 @@
-# SUMMARY | Session 9
+# SUMMARY | Session 23
 
-## Pengenalan Babel, Webpack, dan React
+## Pengenalan React Navigation
 
 ---
 
-- Babel dan Webpack penting dipelajari sebelum mempelajari React karena kita perlu paham mengenai transpiler ini yang tugasnya menerjamahkan sintaks-sintaks yang unsupported oleh web browser atau NodeJS.
-- Webpack memuat module termasuk module babel yang mana dalam satu webpack bisa memuat beberapa bundler atau module management.
-- React adalah library Javascript untuk membuat user interface (UI).Tool ini menawarkan respons cepat untuk user input dengan menggunakan metode baru dalam proses rendering website.
-- Mindset utama dari React adalah Component. Sehingga, sebuah website yang menggunakan React adalah kumpulankomponen yang kita definisikan, lengkap dengan karakter, style, dan fitur-fitur masing-masing
+- React Navigation merupakan salah satu library yang dimiliki dalamReact Native, yang bertujuan untuk proses perpindahan halaman.
+- Terdapat beberapa macam React Navigation yaitu Stack Navigator, Tab Navigator, dan Drawer Navigator.
+- Stack Navigator melakukan transisi halamandengan cara menumpuk halaman baru diatashalaman yang sebelumnya.
+- Tab Navigator umum digunakan di aplikasi. Dimana, tipe navigasi ini akan memunculkan menuhalaman diatas atau dibawah layar.
+- Pola navigasi ini menggunakan drawer dari kiri untukmemunculkan list halaman untuk melakukannavigasi.

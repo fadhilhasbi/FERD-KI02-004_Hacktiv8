@@ -1,10 +1,8 @@
-# SUMMARY | Session 9
+# SUMMARY | Session 18
 
-## Pengenalan Babel, Webpack, dan React
+## Introduction React Native
 
 ---
 
-- Babel dan Webpack penting dipelajari sebelum mempelajari React karena kita perlu paham mengenai transpiler ini yang tugasnya menerjamahkan sintaks-sintaks yang unsupported oleh web browser atau NodeJS.
-- Webpack memuat module termasuk module babel yang mana dalam satu webpack bisa memuat beberapa bundler atau module management.
-- React adalah library Javascript untuk membuat user interface (UI).Tool ini menawarkan respons cepat untuk user input dengan menggunakan metode baru dalam proses rendering website.
-- Mindset utama dari React adalah Component. Sehingga, sebuah website yang menggunakan React adalah kumpulankomponen yang kita definisikan, lengkap dengan karakter, style, dan fitur-fitur masing-masing
+- Cara kerja React Native adalah dengan melakukan transpilasi kode JSX yang kita tulis menjadi JavaScript murni sama halnya seperti yang terjadi dipengembangan aplikasi web. Kemudian dari kode JavaScript hasil transpilasi tersebut, JavaScript diterjemahkan menjadielemen-elemen native dengan bantuan JavaScriptCoresehingga menjadi kode native baik itu Objective-C di iOS ataupunJava di Android.
+- Tool dalam development React Native ada dua macam yaitu, React Native CLI dan Expo. React Native CLI adalah sebuah native code seperti java/kotlin dan swift. Sementara Expo adalah sebuah SDK untuk mempermudah proses React Native app development. Kita tidak perlu install Android Studio maupun Xcode untuk membuat sebuah project. Kelemahan Expo adalah tidak bisa digabungkan dengan native code (Java/Kotlin/Swift).
